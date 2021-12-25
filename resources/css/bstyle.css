@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color:#555;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom : 0.81}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+main .blog {
+    background: url('imgs/grad-3.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+main .blog .blog-post {padding-top: 6rem;}
+
+main .blog-post .blog-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 28%;
+    margin: 2rem 2rem;
+    box-shadow: 0 15px 20px #6a6a6a;
+}
+
+main .blog-content .blog-title {
+    padding: 2rem 0;
+}
+
+main .blog-content span {
+    display: block;
+    padding-top: 15px;
+}
+
+main .in-btn:link, .in-btn:visited {
+    display:inline-block;
+    margin-top: 12px;
+    margin-right: 12px;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.in-btn:link, .in-btn:visited {
+    color:#fff;
+    background-color: #5a5a5a;
+    border: 1px solid #fff;
+}
+
+.in-btn:hover, .in-btn:active {
+    color: #2b0c48;
+    border: 1px solid #59357c;
+    background-color: rgba(255, 255, 255, 0.95);
+}
